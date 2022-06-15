@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: rgb(33, 145, 145);">
+</html>
+
+    <p >ชื่อ</p><input type="text" name="" id="q1">
+    <p>นามสกุล</p><input type="text" name="" id="q2"><br><br>
+    <button onclick="qwe()">summit</button>
+
+    <p id="fname"></p>
+    <p id="lname"></p>
+    
+    <script>
+        function qwe()
+        {
+            var fname = document.getElementById("q1").value;
+            var lname = document.getElementById("q2").value;
+            document.getElementById("fname").innerHTML="First name: " + fname;
+            document.getElementById("lname").innerHTML="Last name : " + lname;
+        }
+    </script>
+
+</body>
+</html>
